@@ -1,0 +1,100 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif;
+  background-color: black;
+  
+  
+}
+.header{
+  padding: 20px 50px;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(12, 12, 12);
+  align-items: center;
+  box-shadow: 0px 2px 10px 0px #ccc;
+  border-bottom: 1px solid #ddd;
+
+}
+.logo{
+  text-decoration: none;
+  color: green;
+  font-size: xx-large;
+  font-weight: 800;
+
+}
+.navbar {
+  display: flex;
+  gap: 30px;
+}
+.navbar a{
+  text-decoration: none;
+  color: white;
+}
+.navbar a:hover{
+  color: rgb(101, 240, 101);
+
+}
+.hero{
+  margin: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  
+}
+.introduction span{
+  color: green;
+  font-weight: 700;
+}
+.hero img{
+  width: 25vw;
+  border-radius: 50%;
+  box-shadow: 0 0 25px rgb(196, 245, 196);
+}
+.introduction h1,h3,p{
+  margin: 10px;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+/* From Uiverse.io by bandirevanth */ 
+.custom-btn {
+ width: 130px;
+ height: 40px;
+ align-items: center;
+ display: flex;
+ color: #fff;
+ border-radius: 5px;
+ padding: 10px 25px;
+ font-family: 'Lato', sans-serif;
+ font-weight: 500;
+ background: transparent;
+ cursor: pointer;
+ transition: all 0.3s ease;
+ position: relative;
+ display: inline-block;
+ box-shadow: inset 2px 2px 2px 0px rgba(255,255,255,.5),
+   7px 7px 20px 0px rgba(0,0,0,.1),
+   4px 4px 5px 0px rgba(0,0,0,.1);
+ outline: none;
+}
+
+.btn-1 {
+ background: rgb(96,9,240);
+ background: linear-gradient(0deg, rgba(96,9,240,1) 0%, rgba(129,5,240,1) 100%);
+ border: none;
+}
+
+.btn-1:before {
+ height: 0%;
+ width: 2px;
+}
+
+.btn-1:hover {
+ box-shadow: 4px 4px 6px 0 rgba(255,255,255,.5),
+              -4px -4px 6px 0 rgba(116, 125, 136, .5), 
+    inset -4px -4px 6px 0 rgba(255,255,255,.2),
+    inset 4px 4px 6px 0 rgba(0, 0, 0, .4);
+}
+
+
